@@ -28,3 +28,10 @@ else:
 # the new position equals the old position add the increment
 alien_i['x_position'] = alien_i['x_position'] + x_increment
 print ("New x_position: " + str(alien_i['x_position']))
+
+# delete the key-value
+alien_u = {'color': 'blue', 'point': 7}
+print (alien_u)
+
+del  alien_u['point']
+print (alien_u)
