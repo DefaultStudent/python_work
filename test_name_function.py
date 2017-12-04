@@ -6,4 +6,4 @@ class NameTestCase(unittest.TestCase):
         formatted_name = get_formatted_name('jains', 'joplin')
         self.assertEqual(formatted_name, 'Jains Joplin')
 
-unittest.main()
+unittest.TestCase
